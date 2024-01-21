@@ -9,6 +9,9 @@ const counterSlice = createSlice({
   },
 });
 
+console.log(`test`);
+
+
 export const {increment, decrement} = counterSlice.actions
 
 export default counterSlice.reducer;
